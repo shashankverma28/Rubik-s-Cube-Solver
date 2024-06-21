@@ -1,0 +1,73 @@
+// {
+//     "version": "2.0.0",
+//     "tasks": [
+//         {
+//             "label": "build",
+//             "type": "shell",
+//             "command": "g++",
+//             "args": [
+//                 "finalRubiksCubeSolver.cpp",
+//                 "-o",
+//                 "finalRubiksCubeSolver",
+//                 "-lglut",
+//                 "-lGL",
+//                 "-lGLU"
+//             ],
+//             "group": {
+//                 "kind": "build",
+//                 "isDefault": true
+//             },
+//             "problemMatcher": ["$gcc"]
+//         }
+//     ]
+// }
+
+
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                //"-o",
+                // "finalRubiksCubeSolver", 
+                // "finalRubiksCubeSolver.cpp", 
+                // "-lopengl32", 
+                // "-lglu32", 
+                // "-lfreeglut"
+
+                //after readme
+
+                // "finalRubiksCubeSolver.cpp",
+                // "-o", "finalRubiksCubeSolver",
+                // "-I", "C:/mingw/include",
+                // "-L", "C:/mingw/lib",
+                // "-lfreeglut",
+                // "-lopengl32",
+                // "-Wl,--subsystem,windows"
+
+                //30/05/.1.20
+
+                "-g",
+                "C:/Users/Shashank Verma/OneDrive/Desktop/SDE/Projects/Rubiks cube/finalRubiksCubeSolver.cpp",
+                "-I","C:/Users/Shashank Verma/OneDrive/Desktop/SDE/Projects/Rubiks cube/include",
+                "-L","C:/Users/Shashank Verma/OneDrive/Desktop/SDE/Projects/Rubiks cube/lib",
+                "-lfreeglut",
+                "-lopengl32",
+                "-o",
+                "C:/Users/Shashank Verma/OneDrive/Desktop/SDE/Projects/Rubiks cube/build/finalRubiksCubeSolver.exe"
+
+
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
+
