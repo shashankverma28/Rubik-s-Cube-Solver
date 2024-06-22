@@ -5,8 +5,7 @@
             "name": "Run finalRubiksCubeSolver",
             "type": "cppdbg",
             "request": "launch",
-            "program": /*"C:/Users/Shashank Verma/OneDrive/Desktop/SDE/Projects/Rubiks cube/cubesolver/finalRubiksCubeSolver"*/
-                        "C:/Users/Shashank Verma/OneDrive/Desktop/SDE/Projects/Rubiks cube/build/finalRubiksCubeSolver.exe"
+            "program": "C:/Users/Shashank Verma/OneDrive/Desktop/SDE/Projects/Rubiks cube/build/finalRubiksCubeSolver.exe"
             ,
             "args": [],
             "stopAtEntry": false,
